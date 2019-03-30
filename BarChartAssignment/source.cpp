@@ -16,7 +16,7 @@
 using namespace std;
 
 void refrandom(int&,int&,int&);
-void pointfill(int,char,char*);
+void pointfill(int,char,char*); // testing github integration
 
 int main(){ // sets up the lengths with refrandom, sets up the bars with pointfill and prints out all three
 
