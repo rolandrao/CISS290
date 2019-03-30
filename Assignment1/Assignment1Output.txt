@@ -1,0 +1,168 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 AndaleMono;}
+{\colortbl;\red255\green255\blue255;\red150\green254\blue27;\red255\green255\blue255;\red151\green255\blue28;
+\red152\green255\blue29;\red153\green255\blue30;\red153\green255\blue30;}
+{\*\expandedcolortbl;;\cssrgb\c63936\c97795\c12855;\cssrgb\c100000\c100000\c100000;\cssrgb\c64463\c98404\c13709;
+\cssrgb\c64725\c98707\c14135;\cssrgb\c64986\c99008\c14561;\cssrgb\c65246\c99309\c14985;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \CocoaLigature0 -----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        Cosine\
+Cosine chosen\
+ Enter the desired amount of radians: .87\
+\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Regular Cosine                  |\
+|       Arc Cosine                      |\
+|       Hyperbolic Cosine               |\
+-------------------------------------------\
+Regular\
+Your answer is: +0.645\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        Cosine\
+Cosine chosen\
+ Enter the desired amount of radians: .87\
+\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Regular Cosine                  |\
+|       Arc Cosine                      |\
+|       Hyperbolic Cosine               |\
+-------------------------------------------\
+Arc\
+Your answer is: +0.516\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        Cosine\
+Cosine chosen\
+ Enter the desired amount of radians: .87\
+\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Regular Cosine                  |\
+|       Arc Cosine                      |\
+|       Hyperbolic Cosine               |\
+-------------------------------------------\
+Hyperbolic\
+Your answer is: +1.403\
+\cf4 \cb3 -----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        Logarithm\
+Enter the number: 33\
+\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Common Logarithm                |\
+|       Natural Logarithm               |\
+-----------------------------------------\
+Common\
+Your answer is: 1.519\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        Logarithm\
+Enter the number: 33\
+\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Common Logarithm                |\
+|       Natural Logarithm               |\
+-----------------------------------------\
+Natural\
+Your answer is: 3.497\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        \
+\cf5 \cb3 -----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        Conversion\
+----------------------------------------\
+|       Choose one of the following:    |\
+|       Decimal to Hex                  |\
+|       Hex to Decimal                  |\
+----------------------------------------\
+Decimal \
+Lower case for your output? (true or false)?: true\
+Enter the Decimal Value: 93\
+Your answer in Hex is: 0x5d\
+-----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        Conversion\
+----------------------------------------\
+|       Choose one of the following:    |\
+|       Decimal to Hex                  |\
+|       Hex to Decimal                  |\
+----------------------------------------\
+Decimal\
+Lower case for your output? (true or false)?: false\
+Enter the Decimal Value: 93\
+Your answer in Hex is: 0x5D\
+\cf6 \cb3 -----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        Conversion\
+----------------------------------------\
+|       Choose one of the following:    |\
+|       Decimal to Hex                  |\
+|       Hex to Decimal                  |\
+----------------------------------------\
+Hex\
+Enter the Hexidecimal value: 5d\
+Your answer in Decimal is: 93\
+\cf7 \cb3 -----------------------------------------\
+|       Choose one of the following:    |\
+|       Cosine                          |\
+|       Logarithm                       |\
+|       Conversion                      |\
+|       Exit                            |\
+-----------------------------------------\
+        Exit\
+Exit chosenRolands-MacBook-Air:Assignment1 rolandrao$ \cf2 \cb3 \
+}
