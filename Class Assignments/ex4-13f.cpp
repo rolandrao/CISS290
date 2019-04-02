@@ -37,10 +37,11 @@ int main(){
     cout << "Enter Class Year: ";
     cin >> s[i].year;
 
-    }
+  }
 
-    label(s,2);
-    
+  label(s,2);
+  printOut(file,s[0]);
+  printOut(file,s[1]);
 
 
   }
