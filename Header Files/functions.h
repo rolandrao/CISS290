@@ -11,7 +11,7 @@ using namespace std;
 void quadratic(float *roots,float a, float b, float c){ // requires the address of a size 2 float array to store both roots
   *roots = (-b+sqrt(pow(b,2)-4*a*c))/(2*a);
   roots++;
-  *roots = (b+sqrt(pow(b,2)-4*a*c))/(2*a);
+  *roots = (-b-sqrt(pow(b,2)-4*a*c))/(2*a);
 }
 
 template <class T>
