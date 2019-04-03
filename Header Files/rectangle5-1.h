@@ -4,7 +4,7 @@ Exercise 5-1 Header File
 This class will define a rectangle
 */
 
-class rectangle51{
+class rectangle51 {
 private:
   float length;
   float width;
@@ -12,7 +12,7 @@ private:
   float perimeter;
 
 public:
-  rectangle()
+  rectangle51()
   {
     length = 1;
     width = 1;
@@ -44,7 +44,7 @@ public:
     return area;
   }
 
-  float get perimeter(){
+  float getperimeter(){
     return perimeter;
   }
-}
+};

@@ -17,6 +17,6 @@ int main(){
   r.setwidth(wid);
   r.calcarea();
   r.calcperimeter();
-  cout << r.getarea << endl;
-  cout << r.getperimeter << endl;
+  cout << "Area: " << r.getarea() << endl;
+  cout << "Perimeter: " << r.getperimeter() << endl;
 }
