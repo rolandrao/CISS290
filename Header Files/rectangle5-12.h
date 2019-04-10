@@ -3,13 +3,13 @@
 Exercise 5-1 Header File
 This class will define a rectangle
 */
-#ifndef rectangle58b_h
-#define rectangle58b_h
+#ifndef rectangle512_h
+#define rectangle512_h
 
 #include<iostream>
 using namespace std;
 
-class rectangle58b {
+class rectangle512 {
 protected:
   float length;
   float width;
@@ -17,7 +17,7 @@ protected:
   float perimeter;
 
 public:
-  rectangle58b(float l, float w)
+  rectangle512(float l, float w)
   {
     length = l;
     width = w;
@@ -25,13 +25,13 @@ public:
     perimeter = 2*(length+width);
   }
 
-  void print(){
+  void virtual print(){
     cout << "Length is " << length << endl;
     cout << "Width is " << width << endl;
     cout << "Area is " << area << endl;
     cout << "Perimeter is " << perimeter << endl;
   }
-  ~rectangle58b(){
+  ~rectangle512(){
 
   }
 };
