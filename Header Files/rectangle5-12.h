@@ -17,6 +17,9 @@ protected:
   float perimeter;
 
 public:
+  rectangle512(){
+    
+  }
   rectangle512(float l, float w)
   {
     length = l;

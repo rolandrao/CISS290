@@ -23,7 +23,7 @@ public:
 
   }
 
-  colorrectangle512(float l, float w, char c[]) : rectangle512(l,w)
+  colorrectangle512(float l, float w, const char c[]) : rectangle512(l,w)
   {
     strcpy(color,"Blue");
 
