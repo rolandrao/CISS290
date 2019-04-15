@@ -4,7 +4,7 @@ This program will create an array of media pointers
 */
 #include<iostream>
 #include<string.h>
-#include"/Users/rolandrao/Documents/CISS290/Header Files/media.h"
+#include"media.h"
 
 using namespace std;
 
@@ -44,17 +44,17 @@ int main()
 void sort (media *mm[], int N)  // build selection sort funciton
 {
   int pass, j, min;
-  media temp;
+  media *temp;
   for (pass = 0; pass <= N - 2; pass++)  // passes
   {
     min = pass;
     for (j = pass + 1; j < N; j++)  // in each pass
-    if (mm[min] > mm[j]){
+    if (*mm[min] < *mm[j]){
       min = j;
     }
-    temp = *mm[min];
-    *mm[min] = *mm[pass];
-    *mm[pass] = temp;
+    temp = mm[min];
+    mm[min] = mm[pass];
+    mm[pass] = temp;
 	  //strcpy(temp, str[min]);
 	  //strcpy(str[min], str[pass]);
 	  //strcpy(str[pass], temp);

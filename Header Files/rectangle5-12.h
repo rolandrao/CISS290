@@ -18,7 +18,7 @@ protected:
 
 public:
   rectangle512(){
-    
+
   }
   rectangle512(float l, float w)
   {
@@ -34,6 +34,7 @@ public:
     cout << "Area is " << area << endl;
     cout << "Perimeter is " << perimeter << endl;
   }
+  
   ~rectangle512(){
 
   }

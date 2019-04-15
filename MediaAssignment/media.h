@@ -13,7 +13,7 @@ public:
 
   }
   media(){
-    
+
   }
 
   void virtual print(){
@@ -27,6 +27,10 @@ public:
 
   float getprice(){
     return price;
+  }
+
+  bool operator<(media m){
+    return price < m.getprice();
   }
 };
 
