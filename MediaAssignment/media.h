@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string.h>
+#include<iomanip>
 using namespace std;
 
 class media{
@@ -17,8 +18,9 @@ public:
   }
 
   void virtual print(){
+    cout.setf(ios::fixed|ios::showpoint);
     cout << "Name: " << name << endl;
-    cout << "Price: " << price << endl;
+    cout << "Price: " << setprecision(2) << price << endl;
   }
 
   string getname(){
