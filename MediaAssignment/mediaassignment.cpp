@@ -1,6 +1,7 @@
 /* Roland Rao
 Exercise media main
-This program will create an array of media pointers
+This program will create an array of media pointers that can be sorted
+and printed in the order of their price from high to low
 */
 #include<iostream>
 #include<string.h>
@@ -55,9 +56,7 @@ void sort (media *mm[], int N)  // build selection sort funciton
     temp = mm[min];
     mm[min] = mm[pass];
     mm[pass] = temp;
-	  //strcpy(temp, str[min]);
-	  //strcpy(str[min], str[pass]);
-	  //strcpy(str[pass], temp);
+
 	}
 
 }
